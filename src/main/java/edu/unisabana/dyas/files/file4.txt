@@ -1,0 +1,2 @@
+Aquí tenemos otra línea en file4.
+Y otra línea más.
