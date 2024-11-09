@@ -98,7 +98,8 @@ public class ReactiveTransactionMonitor {
 
 #### Parte 2: Multi-threading
 **El codigo de esta parte se encuentra en la rama "multithreading"**
-Caso de uso: Imagina que senecesita procesar una lista grande de archivos de texto. Cada archivo contiene datos que deben analizarse y los resultados deben guardarse en una base de datos. Procesar los archivos secuencialmente puede ser ineficiente, así que usar multithreading permitirá dividir la carga entre varios hilos, procesando varios archivos simultáneamente.
+
+Caso de uso: Imagina que se necesita procesar una lista grande de archivos de texto. Cada archivo contiene datos que deben analizarse y los resultados deben guardarse en una base de datos. Procesar los archivos secuencialmente puede ser ineficiente, así que usar multithreading permitirá dividir la carga entre varios hilos, procesando varios archivos simultáneamente.
 
 Se usan Executor Service y Callable. ExecutorService manejará la ejecución de cada Callable en paralelo y nos permitirá monitorear y obtener los resultados de cada hilo.
 
